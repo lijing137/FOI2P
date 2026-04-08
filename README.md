@@ -29,6 +29,7 @@ To train the model, run:
 
 ```bash
 python train.py
+```
 
 ## Test
 
@@ -36,12 +37,14 @@ To test the model, run:
 
 ```bash
 python eval_all.py
+```
 
 ## Acknowledgements
 
 This project is developed based on the excellent open-source codebases of CoFiI2P and CAST.
 We sincerely thank the authors for sharing their valuable work.
 
+```bash
 @ARTICLE{10685082,
   author={Kang, Shuhao and Liao, Youqi and Li, Jianping and Liang, Fuxun and Li, Yuhao and Zou, Xianghong and Li, Fangning and Chen, Xieyuanli and Dong, Zhen and Yang, Bisheng},
   journal={IEEE Robotics and Automation Letters}, 
@@ -62,3 +65,4 @@ We sincerely thank the authors for sharing their valuable work.
   pages={70230--70258},
   year={2024}
 }
+```
