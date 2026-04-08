@@ -30,4 +30,35 @@ To train the model, run:
 ```bash
 python train.py
 
+## Test
+
+To test the model, run:
+
+```bash
 python eval_all.py
+
+## Acknowledgements
+
+This project is developed based on the excellent open-source codebases of CoFiI2P and CAST.
+We sincerely thank the authors for sharing their valuable work.
+
+@ARTICLE{10685082,
+  author={Kang, Shuhao and Liao, Youqi and Li, Jianping and Liang, Fuxun and Li, Yuhao and Zou, Xianghong and Li, Fangning and Chen, Xieyuanli and Dong, Zhen and Yang, Bisheng},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={CoFiI2P: Coarse-to-Fine Correspondences-Based Image to Point Cloud Registration}, 
+  year={2024},
+  volume={9},
+  number={11},
+  pages={10264-10271},
+  keywords={Point cloud compression;Feature extraction;Transformers;Cameras;Image resolution;Image edge detection;Detectors;Coarse-to-fine correspondences;image-to-point (I2P) cloud registration;transformer network},
+  doi={10.1109/LRA.2024.3466068}
+}
+
+@article{cast,
+  title={A consistency-aware spot-guided transformer for versatile and hierarchical point cloud registration},
+  author={Huang, Renlang and Tang, Yufan and Chen, Jiming and Li, Liang},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={70230--70258},
+  year={2024}
+}
