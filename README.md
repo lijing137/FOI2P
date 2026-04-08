@@ -37,6 +37,7 @@ To test the model, run:
 
 ```bash
 python eval_all.py
+python calc_result.py
 ```
 
 ## Acknowledgements
