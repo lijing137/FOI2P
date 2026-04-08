@@ -1,6 +1,6 @@
 # FOI2P
 
-Official implementation of **FOI2P**.
+Official implementation of **FOI2P**. Due to time constraints and research workload, we currently release a complete runnable version of the codebase. Some files that could be further cleaned up or removed are still retained and have not yet been fully organized. We appreciate your understanding.
 
 ## Introduction
 
